@@ -1,0 +1,17 @@
+http:
+  # The RESTful API is rooted at /apiv1, e.g., a Resource with @Path("/lcd") will be found at:
+  # http://host:4444/apiv1/display/lcd
+  rootPath: /apiv1/*
+  port: 8888
+  adminPort: 8889
+
+# TODO: gzip should be disabled for testing for use with REST-assured - put this in a "test" YML
+#  gzip:
+#    enabled: false
+
+# Enable HTTPS
+  connectorType: nonblocking+ssl
+
+#  ssl:
+#    keyStore: ./keystore.jks
+#    keyStorePassword: guidewire

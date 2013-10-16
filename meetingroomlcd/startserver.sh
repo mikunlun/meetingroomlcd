@@ -1,0 +1,1 @@
+java -jar -Dews.user="username" -Dews.password="password" -Dews.exchangeurl="https://mail.domain.com/ews/exchange.asmx" -Dews.domain="@domain.com" -Dews.room="rainbow" -Dews.debug="true" target/meetingroomlcd-0.0.1-SNAPSHOT-jar-with-dependencies.jar embedded-server

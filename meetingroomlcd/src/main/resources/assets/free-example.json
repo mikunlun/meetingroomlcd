@@ -1,0 +1,35 @@
+{
+  "freeFor" : 47,
+  "meeting": {
+    "owner" : "Ivan Kolesnikov",
+    "title" : "Test Meeting",
+    "duration" : 30
+  },
+  "bookFor" : [
+    {
+      "duration" : 30,
+      "startTime" : "s1",
+      "endTime" : "s2"
+    },
+    {
+      "duration" : 47,
+      "startTime" : "s1",
+      "endTime" : "s2"
+    },
+    {
+      "duration" : 60,
+      "startTime" : "s1",
+      "endTime" : "s2"
+    },
+    {
+      "duration" : 90,
+      "startTime" : "s1",
+      "endTime" : "s2"
+    },
+    {
+      "duration" : 120,
+      "startTime" : "s1",
+      "endTime" : "s2"
+    }
+  ]
+}
